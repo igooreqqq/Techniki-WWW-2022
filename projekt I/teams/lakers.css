@@ -1,0 +1,6 @@
+.player-box {
+    text-align: center;
+    margin-top: 20px;
+    background-image: radial-gradient(circle, rgba(250, 229, 250, 1) 0%, rgba(119, 38, 123, 1) 100%);
+    border-radius: 25px;
+}

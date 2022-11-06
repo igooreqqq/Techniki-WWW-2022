@@ -1,0 +1,119 @@
+.date{
+    display: flex;
+    border-radius: 25px;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.match {
+    display: flex;
+    border-radius: 25px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    background-color: rgba(253, 253, 184, 1);
+    background-image: linear-gradient(180deg, rgba(253, 253, 184, 1) 0%, rgba(255, 191, 158, 1) 100%);
+}
+
+.hour {
+    flex: 1.7;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    font-size: 50px;
+}
+.teams {
+    flex:2;
+    
+}
+.type {
+    font-size: 50px;
+    margin-right: 50px;
+    justify-content:flex-end;
+}
+
+.teamlogo {
+    width: 100px;
+}
+
+.srodek {
+    align-items: center;
+    display: flex;
+}
+
+.vs {
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 1420px) {
+    .main-section {
+        flex-direction: column;
+    }
+
+    header{
+        margin-bottom: 200px;
+    }
+
+    .teamlogo {
+        width: 80px;
+    }
+
+    .hour {
+        flex: 1.7;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        font-size: 34px;
+    }
+
+    .type {
+        font-size: 34px;
+        margin-right: 20px;
+        justify-content:flex-end;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main-section {
+        flex-direction: column;
+    }
+
+    .hour {
+        flex: 1.7;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    .teams {
+        flex:2;
+        
+    }
+
+    .type {
+        font-size: 15px;
+        margin-right: 20px;
+        justify-content:flex-end;
+    }
+    
+    .teamlogo {
+        width: 35px;
+    }
+    
+    .srodek {
+        align-items: center;
+        display: flex;
+    }
+    
+    .vs {
+        font-size: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}

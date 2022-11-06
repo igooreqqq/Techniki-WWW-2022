@@ -1,0 +1,137 @@
+.main-section {
+    margin: auto;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text {
+    font-size: 18px; 
+    text-align: justify; 
+    margin-top: 5px;
+}
+
+.players {
+    display: flex;
+    margin: auto;
+    justify-content:space-between;
+}
+
+.player-box {
+    text-align: center;
+    margin-top: 20px;
+    background-image: linear-gradient(176deg, rgba(250, 252, 89, 1) 0%, rgba(255, 183, 16, 1) 100%);
+    border-radius: 25px;
+}
+
+.player-img {
+    width: 280px;
+}
+
+.player-napis {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(66, 68, 90, 1);
+}
+
+.section-napis {
+    margin-top: 20px;
+    background-color: rgba(242, 17, 22, 1);
+    background-image: linear-gradient(206deg, rgba(242, 17, 22, 1) 0%, rgba(204, 53, 151, 1) 100%);
+    border-radius: 8px;
+    color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+
+.arena-img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1560px) {
+    .main-section {
+        flex-direction: column;
+    }
+
+    .main-image {
+        margin: auto;
+    }
+
+    .main-text {
+        font-size: 22px;
+    }
+
+    .main-section {
+        margin-top: 200px;
+    }
+
+    .players {
+        display: block;
+        margin: auto;
+        justify-content:space-between;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main-section {
+        flex-direction: column;
+        margin-top: 200px;
+    }
+
+    .main-image {
+        margin: auto;
+        width: 300px;
+    }
+
+    .main-text {
+        font-size: 15px;
+    }
+    
+    .players {
+        display: block;
+        margin: auto;
+        justify-content:space-between;
+    }
+    
+    .player-box {
+        text-align: center;
+        margin-top: 20px;
+        background-image: linear-gradient(176deg, rgba(250, 252, 89, 1) 0%, rgba(255, 183, 16, 1) 100%);
+        border-radius: 25px;
+    }
+    
+    .player-img {
+        width: 200px;
+    }
+    
+    .player-napis {
+        margin-top: 10px;
+        padding-bottom: 10px;
+        text-shadow: 1px 1px 2px rgba(66, 68, 90, 1);
+    }
+    
+    .section-napis {
+        margin-top: 20px;
+        background-color: rgba(242, 17, 22, 1);
+        background-image: linear-gradient(206deg, rgba(242, 17, 22, 1) 0%, rgba(204, 53, 151, 1) 100%);
+        border-radius: 8px;
+        color: white;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+        font-size: 25px;
+    }
+
+    .arena-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+}
