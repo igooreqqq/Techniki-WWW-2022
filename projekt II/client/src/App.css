@@ -1,0 +1,168 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.post {
+  border-radius: 25px;
+  display: flex;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: rgba(242, 17, 22, 1);
+  background-image: linear-gradient(206deg, rgba(242, 17, 22, 1) 0%, rgba(204, 53, 151, 1) 100%);
+  border-radius: 25px;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.post:hover {
+  box-shadow: 10px 6px 13px 0px rgba(66, 68, 90, 1);
+  cursor: pointer;
+}
+
+.titlePost {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.body {
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+.footer {
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.createPostPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.labelPost {
+  text-align: left;
+  font-size: 20px;
+}
+
+.formContainer #inputCreatePost {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 35px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.formContainer button {
+  cursor: pointer;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: pink;
+  border-radius: 15px;
+}
+
+error {
+  color: red;
+}
+
+.linekk {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.commentSection {
+  margin-top: 40px;
+}
+
+.addComment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.commentInput {
+  font-size: 30px;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.commentButton {
+  width: 20%;
+  margin: auto;
+  font-size: 30px;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.comment {
+  font-size: 20px;
+  
+  border-radius: 15px;
+  display: flex;
+  width: 40%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: rgba(242, 17, 22, 1);
+  background-image: linear-gradient(206deg, rgba(242, 17, 22, 1) 0%, rgba(204, 53, 151, 1) 100%);
+  border-radius: 25px;
+  color: white;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+.deleteButton {
+  width: 40%;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 20px;
+  background-image: linear-gradient(176deg, rgba(250, 252, 89, 1) 0%, rgba(255, 183, 16, 1) 100%);
+  border-radius: 17px;
+  border-color: white;
+}
+
+.loggedUser {
+  color: white;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+#registeredInfo {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(242, 17, 22, 1);
+  background-image: linear-gradient(206deg, rgba(242, 17, 22, 1) 0%, rgba(204, 53, 151, 1) 100%);
+  border-radius: 25px;
+  justify-content: center;
+  padding-right: 65px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}

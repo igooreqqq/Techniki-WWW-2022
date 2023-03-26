@@ -1,0 +1,100 @@
+.main-section {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content:space-around;
+}
+
+.box-image {
+    height: 200px;
+}
+
+.team-box {
+    width: 400px;
+    height: 300px;
+    background-image: linear-gradient(176deg, rgba(250, 252, 89, 1) 0%, rgba(255, 183, 16, 1) 100%);
+    padding: 20px 20px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.team-box:hover {
+    background-color: rgba(55, 46, 46, 1);
+    background-image: linear-gradient(196deg, rgba(55, 46, 46, 1) 0%, rgba(117, 102, 107, 1) 74%);
+}
+
+
+@media screen and (max-width: 1420px) {
+    .main-section {
+        flex-direction: column;
+        margin-top: 200px;
+    }
+
+    .main-image {
+        margin: auto;
+        width: 300px;
+    }
+
+    .main-text {
+        font-size: 15px;
+    }
+
+    .box-image {
+        height: 150px;
+    }
+    
+    .team-box {
+        width: auto;
+        height: 200px;
+        background-image: linear-gradient(176deg, rgba(250, 252, 89, 1) 0%, rgba(255, 183, 16, 1) 100%);
+        padding: 20px 20px;
+        border-radius: 25px;
+        text-align: center;
+        padding-top: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .team-box:hover {
+        background-color: rgba(55, 46, 46, 1);
+        background-image: linear-gradient(196deg, rgba(55, 46, 46, 1) 0%, rgba(117, 102, 107, 1) 74%);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main-section {
+        flex-direction: column;
+        margin-top: 200px;
+    }
+
+    .main-image {
+        margin: auto;
+        width: 300px;
+    }
+
+    .main-text {
+        font-size: 15px;
+    }
+
+    .box-image {
+        height: 100px;
+    }
+    
+    .team-box {
+        width: auto;
+        height: 150px;
+        background-image: linear-gradient(176deg, rgba(250, 252, 89, 1) 0%, rgba(255, 183, 16, 1) 100%);
+        padding: 20px 20px;
+        border-radius: 25px;
+        text-align: center;
+        padding-top: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .team-box:hover {
+        background-color: rgba(55, 46, 46, 1);
+        background-image: linear-gradient(196deg, rgba(55, 46, 46, 1) 0%, rgba(117, 102, 107, 1) 74%);
+    }
+}
